@@ -1,0 +1,147 @@
+@media (max-width: 2600px) {
+    body {
+        background-color: rgb(86, 105, 124);
+        color: rgb(200, 214, 69);
+    }
+    .titleContainer {
+        border: solid rgb(17, 14, 12);
+        height: 10vh;
+        margin: 1em;
+        font-size: 50px;
+        text-align: center;
+    }
+    .picContainer {
+        border: solid black;
+        height: 60vh;
+        background-image: url("https://victoriawhitelaw.com.au/wp-content/uploads/2021/03/timo-c-dinger-GjQ9mpJg4OQ-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo {
+        border: solid yellow;
+        height: 20vh;
+        margin: 2em;
+    }
+    #Dahlia {
+        display: flex;
+        width: 50vw;
+        height: 30vh;
+        margin-left: 10px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        }
+    #Lily, #Daisy {
+        width: 33%;
+        display: none;
+    }
+}
+
+/* ------------Desktop  */
+@media (max-width: 1480px) {
+    body {
+        background-color: lemonchiffon;
+    }
+    .titleContainer {
+        border: solid burlywood;
+        height: 10vh;
+        margin: 1em;
+        font-size: 50px;
+        text-align: center;
+        color: burlywood;
+    }
+    .picContainer {
+        border: solid black;
+        height: 60vh;
+        background-image: url("https://www.nps.gov/keaq/learn/nature/images/dark-pink-lily.jpg?maxwidth=1300&autorotate=false");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo {
+        border: solid green;
+        height: 20vh;
+        margin: 2em;
+    }
+    #Lily {
+        display: flex;
+        width: 50vw;
+        height: 30vh;
+        margin-left: 10px;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+    #Dahlia, #Daisy {
+        width: 33%;
+        display: none;
+    }
+}
+
+/* ---------------Mid  */
+@media (max-width: 880px) {
+    body {
+        background-color: rgb(126, 217, 237);
+    }
+    .titleContainer {
+        border: solid white;
+        height: 10vh;
+        margin: 1em;
+        font-size: 50px;
+        text-align: center;
+        color: white;
+    }
+    .picContainer {
+        border: solid black;
+        height: 60vh;
+        background-image: url("https://img.staticmb.com/mbcontent/images/crop/uploads/2024/5/Picture-of-Daisy-Flower_0_1200.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo {
+        border: solid blue;
+        height: 20vh;
+        margin: 2em;
+    }
+    #Daisy {
+        display: flex;
+        width: 30vw;
+        height: 30vh;
+        margin-left: 10px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        }
+    #Dahlia, #Lily {
+        display: none;
+    }
+}
+/* -------------Mobile  */
+
+/* -------GeneralCSS */
+.icon {
+    height: 120px;
+    width: 120px;
+}
+/* .sectionContainer {
+    border: solid black;
+    height: 40vh;
+    margin: 1em;
+} */
+.sectionContainer {
+    border: solid black;
+    height: 30vh;
+    margin: 1em;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+}
+
+.images img{
+    width: 250px;
+    height: 250px;
+}
+
+/* ---------------- */
